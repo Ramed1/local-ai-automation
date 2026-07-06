@@ -1,0 +1,16 @@
+# n8n Daten und interne SQLite-Datenbanken ignorieren
+.n8n/
+*.db
+n8n_data/
+
+# Ollama Modell-Inhalte (die Gigabytes an Model-Files gehören nicht ins Git)
+.ollama/
+ollama_data/
+
+# Betriebssystem-Dateien
+.DS_Store
+Thumbs.db
+
+# Temporäre Dateien und Logs
+*.log
+npm-debug.log*
